@@ -1,0 +1,25 @@
+{
+  "name": "13-node-express-handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyamleep/13-Express-Node-Handlebars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shyamleep/13-Express-Node-Handlebars/issues"
+  },
+  "homepage": "https://github.com/shyamleep/13-Express-Node-Handlebars#readme"
+}
