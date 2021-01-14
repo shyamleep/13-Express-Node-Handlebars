@@ -11,6 +11,15 @@ function printQuestionMarks(num) {
 };
 
 function objToSql(obj) {
-    var array = []
-}
+    var array = [];
 
+    for (var key in obj) {
+        array.push(key + "=" + obj[key])
+    }
+
+    return array.toString();
+};
+
+const orm = {
+    getAll: function( )
+}
